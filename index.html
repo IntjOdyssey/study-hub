@@ -5,57 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Study Hub</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
-  <header>
+  <div class="notion-page">
     <h1>Study Hub</h1>
     <p class="welcome">
       Welcome! This platform is made to support your academic journey, ensuring easy access to all the resources you need to excel. Feel free to explore, learn, and thrive!
     </p>
-  </header>
 
-  <main>
-    <section>
-      <h2>Subjects</h2>
+    <h2>Subjects</h2>
 
-      <h3>Fall</h3>
-      <div class="subject-grid" id="fall-list"></div>
+    <h3>Fall</h3>
+    <div class="subject-grid" id="fall-list"></div>
 
-      <h3>Spring</h3>
-      <div class="subject-grid" id="spring-list"></div>
-    </section>
+    <h3>Spring</h3>
+    <div class="subject-grid" id="spring-list"></div>
 
-    <section>
-      <h2>Charts</h2>
-      <div class="chart-grid">
-        <div class="chart-box">
-          <h4>Course Status (All Terms)</h4>
-          <canvas id="statusChart"></canvas>
-        </div>
-        <div class="chart-box">
-          <h4>Fall Course Status</h4>
-          <canvas id="fallChart"></canvas>
-        </div>
-      </div>
-    </section>
+    <h2>Resources</h2>
+    <div class="resources" id="resources-list"></div>
 
-    <section>
-      <h2>Resources</h2>
-      <ul class="resource-list">
-        <li>Books and Notes</li>
-        <li>Books Summary</li>
-        <li>Bookmarks</li>
-        <li>Tags</li>
-        <li>Back End</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>Ask help at <a href="mailto:myworld.intj@gmail.com">myworld.intj@gmail.com</a></p>
-  </footer>
+    <div class="footer">
+      Ask help at <a href="mailto:myworld.intj@gmail.com">myworld.intj@gmail.com</a>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
